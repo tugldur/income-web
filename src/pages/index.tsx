@@ -1,19 +1,15 @@
 /* eslint-disable max-lines */
-// import axios from "axios";
-// import { useState } from "react";
-// import { useRouter } from "next/router";
 import { Icon7 } from "@/components/icon/Icon7";
 import { Icon8 } from "@/components/icon/Icon8";
 import { Icon9 } from "@/components/icon/Icon9";
 import { Icon10 } from "@/components/icon/Icon10";
-import { Icon11 } from "@/components/icon/Icon11";
- 
- 
-import{Last}from "@/components/last"
-import{Card}from "@/components/Card"
-import { Dou }from "@/components/Nut"
-import {Oron}from "@/components/Oron"
-// import { title } from "process";
+import { Icon11 } from "@/components/icon/Icon11";  
+
+import { Last } from "@/components/last"
+import { Card } from "@/components/Card"
+import { Dou } from "@/components/Nut"
+import { Oron } from "@/components/Oron"
+
 export default function Home() {
   return (
     <div
@@ -125,7 +121,7 @@ export default function Home() {
             marginLeft: "140px",
             backgroundColor: "#FFFFFF",
           }}
-        >  <Card/>  </div>
+        >  <Card />  </div>
 
         <div
           style={{
@@ -135,7 +131,7 @@ export default function Home() {
             backgroundColor: "#FFFFFF",
           }}
         >
-          
+
           <div
             style={{
               width: "384px",
@@ -257,23 +253,23 @@ export default function Home() {
         }}
       >
         <div
-           style={{
+          style={{
             width: "588px",
             height: "284px",
             borderRadius: "20px",
             backgroundColor: "#FFFFFF",
             marginLeft: "95px",
-            justifyContent:"center",
-            alignItems:"center",
+            justifyContent: "center",
+            alignItems: "center",
             // display:"flex"
           }}
         >
-          <Oron/>
+          <Oron />
         </div>
 
         <div>
           <div >
-              <Dou /> 
+            <Dou />
           </div>
         </div>
 
@@ -304,12 +300,12 @@ export default function Home() {
             Last Records
           </p>
         </div>
-        
-         <Last amount={-8000} title='Lending & Renting'date='2023-12-11'/>
-         <Last amount={-1000} title='Lending & Renting'date='2023-12-20'/>
-         <Last amount={-1000} title='Lending & Renting'date='2024-1-11'/>
-         <Last amount={-2000} title='Lending & Renting'date='2024-2-11'/>
-         <Last amount={-9000} title='Lending & Renting'date='2024-3-19'/>
+
+        <Last amount={-8000} title='Lending & Renting' date='2023-12-11' />
+        <Last amount={-1000} title='Lending & Renting' date='2023-12-20' />
+        <Last amount={-1000} title='Lending & Renting' date='2024-1-11' />
+        <Last amount={-2000} title='Lending & Renting' date='2024-2-11' />
+        <Last amount={-9000} title='Lending & Renting' date='2024-3-19' />
       </div>
     </div>
   );

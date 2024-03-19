@@ -7,6 +7,10 @@ import { RadioButton } from "@/components/RadioButton";
 import { Category } from "@/components/Category"
 import { Arrow } from "@/components/arrow"
 import { Nemeh } from "@/components/nemeh"
+import { Last } from "@/components/last"
+import { Toyes } from "@/components/Toyes"
+import { Icon18 } from "@/components/icon/Icon18"
+import { Icon19 } from "@/components/icon/Icon19"
 export default function record() {
   return (
     <div
@@ -143,6 +147,52 @@ export default function record() {
 <input  className={styles.textinput}></input>
 </div>
 </div>
+        </div>
+      </div>
+
+      <div className={styles.buheldel}>
+        <div className={styles.gai}>
+      <div className={styles.lastdays}>
+        <button className={styles.button}><Icon18/></button>
+        <p className={styles.days}>Last 30 Days</p>
+        <button className={styles.button}><Icon19/></button>
+      </div>
+<div className={styles.newest}>
+  <select  className={styles.select}>
+    
+     </select>
+</div>
+</div>
+        <div className={styles.ehniidiv}>
+        <div className={styles.checkbox}>
+    <input type="checkbox" id="scales" name="scales" checked />
+ <p>Select all</p>
+  </div>
+  <p>-35,500</p>
+        </div>
+        <div className={styles.goldiv}>
+          <div  className={styles.Today}>Today
+          </div>
+          <div className={styles.componud}>
+          <Last amount={-9000} title='Lending & Renting' date='2024-3-19' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+        
+          </div>
+        </div>
+        <div className={styles.suulindiv}>
+        <div  className={styles.Yesterday}>Yesterday
+          </div>
+          <div className={styles.dootlincomponud}>
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          <Toyes amount={-8000} title='Food & Drinks' date='2023-12-11' />
+          </div>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 .bagana {
   width: 282px;
   height: 1080px;
-  margin-left: 120px;
+  margin-left: 380px;
   border-radius: 12px;
   border: 1px solid #D1D5DB;
   padding: 24px, 16px, 24px, 16px;
@@ -112,4 +112,117 @@ background-color:#F9FAFB;
   height: 48px;
   border-radius: 10px;
   border: 1px solid  #D1D5DB;
+}
+ 
+.buheldel{
+    width: 894px;
+    height: 1040px;
+    margin-top: 30px;
+    margin-left: 50px;
+    gap: 24px;
+ 
+}
+.gai{
+  width: 894px;
+  height: 48px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.lastdays{
+  width:188px ;
+  height: 32px;
+  
+  display: flex;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+justify-content:space-between;
+  /* margin-top: 25px;
+  margin-left: 20px; */
+}
+ .days{
+  display: flex;
+  align-items: center;
+ }
+.button{
+  width: 32px;
+  background-color: #E5E7EB;
+  border: none;
+  border-radius: 10px;
+}
+.newest{
+  width: 180px;
+  height: 48px;
+  /* border: 1px solid black; */
+  /* margin-top: 25px;
+  margin-left: 526px; */
+}
+.select{
+  width: 180px;
+  height:48px ;
+  border-radius: 7px;
+  border: 1px solid #D1D5DB;
+}
+.ehniidiv{
+  width:894px ;
+  height: 48px;
+ background-color: #FFFFFF;
+border-radius: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+display: flex;
+align-items: center;
+gap: 700px;
+color: #94A3B8;
+border: 1px solid #E5E7EB;
+margin-top:15px ;
+}
+.checkbox{
+  width: 105px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  color: black;
+}
+.goldiv{
+  width: 894px;
+  height: 404px;
+  /* border: 1px solid black; */
+ margin-top: 20px;
+ border-radius: 12px;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+ /* display: flex; */
+ /* align-items: center; */
+}
+.Today{
+  /* border: 1px solid black; */
+  height: 16px;
+}
+.componud{
+  width: 894px;
+  height: 362px;
+  
+  margin-top: px;
+}
+.suulindiv{
+  width: 894px;
+  height: 480px;
+  /* border: 1px solid black; */
+ margin-top: 20px;
+ border-radius: 12px;
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+} 
+.Yesterday{
+  /* border: 1px solid black; */
+  height: 16px;
+}
+.dootlincomponud{
+  width: 894px;
+  height: 362px;
+  
+  margin-top: px;
 }

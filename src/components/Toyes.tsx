@@ -1,6 +1,6 @@
-import { Icon14 } from "@/components/icon/Icon14";
-// import { Icon17} from "@/components/icon/Icon17";
-export const Last = ({amount, title,date}) => {
+// import { Icon14 } from "@/components/icon/Icon14";
+import { Icon17} from "@/components/icon/Icon17";
+export const Toyes = ({amount, title,date}) => {
   return (
     <div
       style={{
@@ -16,7 +16,7 @@ export const Last = ({amount, title,date}) => {
       }}
     >
       <div style={{marginLeft:"70px"}}>
-     <Icon14/>
+     <Icon17/>
       </div>
       <div
         style={{
